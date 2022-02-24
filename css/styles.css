@@ -1,0 +1,267 @@
+body{
+    background-color: white;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    text-align: center; /*Works for block elements(width occupies entire screen) with no width only*/
+    font-family: 'Merriweather', serif;
+}
+.nav-bar{
+    position: relative;
+    margin-top: 0px;
+    height: 125px;
+    background-color: #dbeed5;
+}
+.avatar
+{
+    position: absolute;
+    left: 270px;
+    top:35px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-color:white;
+
+}
+.top-link1{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    font-size: 112.5%;    /* 1em = 16px = 100% ,
+    it is bad to give font size in pixel as auto scaling is not possible for pixel
+    
+    1rem = 1em but it prevents the element from inherting font size of parent which otherwise would add
+    with child font size. Using rem is advised as any imposing from parent can be avoided */
+    
+    font-family: 'Montserrat', sans-serif;
+    color: #45b29a;
+    text-decoration: none;
+}
+.top-link2{
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    font-size: 112.5%;
+    font-family: 'Montserrat', sans-serif;
+    color: #45b29a;
+    text-decoration: none;
+}
+.top-link3{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    font-size: 112.5%;
+    font-family: 'Montserrat', sans-serif;
+    color: #45b29a;
+    text-decoration: none;
+}
+
+.top-container{
+    position: relative;
+    margin-top: 0px;
+    height: 250px;
+    background-color: #dbeed5;
+}
+.middle-container{
+    position: relative;
+    margin-top: 0px;
+    height:357px;
+    width: 100%;
+    background-color: #dbeed5;
+}
+.bottom-container{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+.my_name{
+    margin: 0 auto;
+    padding-top: 90px;
+    font-family: 'Sacramento', cursive;
+    font-size: 500%;
+    color: #45b29a;;
+}
+.mountain{
+    margin: 0 auto;
+    height: 357px;
+    width: 598px;
+}
+.desig{
+    width: 15%;
+    top: 160px;
+    left: 650px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 60px;
+    color: #45b29a;
+    font-size: 112.5%;
+}
+.cloud1{
+    position: absolute;
+    right: 400px;
+    top: 80px;
+}
+.cloud2{
+    top: 180px;
+    left: 350px;
+    position: absolute;
+}
+.avatar2{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color:#dbeed5;
+    top: 50px;
+    left: 690px;
+}
+.avatar3{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 520px;
+    background-color: #dbeed5;
+    top: 130px;
+    border-radius: 50%;
+}
+.computer{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 400px;
+    right: 450px;
+    border-radius: 50%;
+}
+.cont1{
+    position: relative;
+    height: 515px;
+    background-color: white;
+}
+.cont2{
+    position: relative;
+    margin-top: 80px;
+    height: 650px;
+    background-color: white;
+}
+.contact-me{
+    margin-top: 100px;
+}
+.bottom-container{
+    height: 200px;
+    background-color: #dbeed5;
+    position: relative;
+}
+.head2{
+    position: absolute;
+    top: 230px;
+    left: 750px;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 187.5%;
+    color: #45b29a;
+}
+.head3{
+    margin-top: 90px;
+    color: #45b29a;
+    padding-right: 300px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+.head4{
+    padding-left: 260px;
+    padding-top: 50px;
+    color: #45b29a;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+.head5{
+    padding-top: 40px;
+    padding-bottom: 27px;
+    color: #45b29a;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+.par1{
+    position: absolute;
+    top: 300px;
+    left: 550px;
+    font-size: 106.25%;
+    color: grey;
+    line-height: 35px;
+}
+.par2{
+    padding-left: 760px;
+    text-align: left;
+    padding-top: 25px;
+    font-size: 106.25%;
+    color: grey;
+    line-height: 35px;
+}
+.par3{
+    text-align: left;
+    padding-left: 450px;
+    padding-top: 25px;
+    font-size: 106.25%;
+    color: grey;
+    line-height: 35px;
+}
+.par4{
+    font-size: 106.25%;
+    color: grey;
+    line-height: 35px;
+}
+hr{
+    width: 10%;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 5px;
+    border-top-style:dotted ;
+    border-left-width: 0px;
+}
+.btn{
+    font-weight: lighter;
+    background-color: #1b7f69; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 106.25%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.footer-link1{
+    position: absolute;
+    top:70px;
+    left: 550px;
+    font-family: 'Montserrat', sans-serif;
+    color: #45b29a;
+    text-decoration: none;
+    font-size: 93.75%;
+}
+.footer-link2{
+    position: absolute;
+    top:70px;
+    left: 700px;
+    font-family: 'Montserrat', sans-serif;
+    color: #45b29a;
+    text-decoration: none;
+    font-size: 93.75%;
+}
+.footer-link3{
+    position: absolute;
+    top:70px;
+    left: 850px;
+    font-family: 'Montserrat', sans-serif;
+    color: #45b29a;
+    text-decoration: none;
+    font-size: 93.75%;
+}
+.copy-right{
+    position: absolute;
+    bottom: 30px;
+    font-size: 81.25%;
+    left: 600px;
+    font-family: 'Montserrat', sans-serif;
+    color: #45b29a;
+}
